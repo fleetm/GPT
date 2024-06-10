@@ -9,7 +9,7 @@ class HomeViewBody extends StatefulWidget {
 class _HomeViewBodyState extends State<HomeViewBody> {
   final TextEditingController _controller = TextEditingController();
   final OpenAIService _openAIService = OpenAIService(
-      'sk-qlango-mrZlynLlbi2ug5p654f1T3BlbkFJeIIfKvRIoM6gTj18w2pm');
+      ''); // key here /////////////////////////////////////////////////////
   String _response = '';
 
   void _sendQuestion() async {
